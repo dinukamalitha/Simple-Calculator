@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="display-box">
+                <div class="history">
+                    <p id="history-value"></p>
+                </div>
+                <div class="result">
+                    <p id="current-value"></p>
+                </div>
+            </div>
+            <div class="numeric-pad">
+                <div class="row row-1">
+                    <button class="num" id="7" onclick="Click()">7</button>
+                    <button class="num" id="8" onclick="Click()">8</button>
+                    <button class="num" id="9" onclick="Click()">9</button>
+                    <button class="opr" id="/" onclick="Click()">&#247</button>
+
+                </div>
+                <div class="row row-2">
+                    <button class="num" id="4" onclick="Click()">4</button>
+                    <button class="num" id="5" onclick="Click()">5</button>
+                    <button class="num" id="6" onclick="Click()">6</button>
+                    <button class="opr" id="*" onclick="Click()">&times</button>
+                </div>
+                <div class="row row-3">
+                    <button class="num" id="1" onclick="Click()">1</button>
+                    <button class="num" id="2" onclick="Click()">2</button>
+                    <button class="num" id="3" onclick="Click()">3</button>
+                    <button class="opr" id="+" onclick="Click()">+</button>
+                </div>
+                <div class="row row-4">
+                    <button class="opr" id="-" onclick="Click()">-</button>
+                    <button class="num" id="0" onclick="Click()">0</button>
+                    <button class="opr" id="clear" onclick="Click()">c</button>
+                    <button class="opr" id="=" onclick="Click()">=</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="/calculator.js"></script>
+</body>
+
+</html>
